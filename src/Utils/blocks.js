@@ -332,6 +332,27 @@ const groups = ref([
                 }
             },
         ]
+    },
+    {
+        uuid: uuidv4(),
+        title: 'Cards',
+        blocks: [
+            {
+                uuid: uuidv4(),
+                type: 'card',
+                model: 'Simple Card',
+                componentName: 'CardOne',
+                optionsComponentName: 'CardOneOptions',
+                description: 'Simple Card',
+                thumbUrl: '/images/thumbs/v1/guarantee/7-days.png',
+                data: {
+                    darkMode: false,
+                    title: 'Simple Card Title',
+                    description: 'Simple Card Description',
+                    imageUrl: '/images/samples/v1/guarantee/7-days.png',
+                }
+            },
+        ]
     }
 ])
 

@@ -74,6 +74,9 @@
     import FAQList from './FAQ/FAQList.vue'
     import FAQListOptions from './FAQ/FAQListOptions.vue'
 
+    import CardOne from './Cards/CardOne.vue'
+    import CardOneOptions from './Cards/CardOneOptions.vue'
+
     export default {
         name: 'BlockWrapper',
         emits: ['delete'],
@@ -112,6 +115,9 @@
             FAQCollapseOptions,
             FAQList,
             FAQListOptions,
+
+            CardOne,
+            CardOneOptions,
         },
         props: {
             block: {
