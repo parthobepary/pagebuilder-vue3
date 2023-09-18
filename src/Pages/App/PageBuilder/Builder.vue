@@ -49,8 +49,7 @@
                             <Draggable class="dragArea list-group" :list="draft" handle=".handle" group="blocks" item-key="uuid">
                                 <template #item="{ element, index }">
                                     <div class="list-group-item">
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, porro!</p> -->
-                                        <BlockWrapper :block="element" @delete="deleteBlock(index)"/>
+                                        <BlockWrapper :block="element" @delete="deleteBlock(index)" />
                                     </div>
                                 </template>
                             </Draggable>
