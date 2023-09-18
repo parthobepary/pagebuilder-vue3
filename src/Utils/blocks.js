@@ -353,6 +353,32 @@ const groups = ref([
                 }
             },
         ]
+    },
+    {
+        uuid: uuidv4(),
+        title: 'Buttons',
+        blocks: [
+            {
+                uuid: uuidv4(),
+                type: 'primary-button',
+                model: 'Primary Button',
+                componentName: 'PrimaryButton',
+                optionsComponentName: 'PrimaryButtonOptions',
+                description: 'Primary Button',
+                thumbUrl: '/images/thumbs/v1/buttons/primaryButton.png',
+                data: {
+                    darkMode: false,
+                    buttonText: 'Primary Button',
+                    buttonLink: 'https://google.com',
+                    buttonHeight: 60,
+                    buttonWidth: 300,
+                    buttonFontSize: 20,
+                    buttonBgColor: '#FFA500',
+                    buttonTextColor: '#ffffff',
+                    imageUrl: '/images/samples/v1/guarantee/7-days.png',
+                }
+            },
+        ]
     }
 ])
 
