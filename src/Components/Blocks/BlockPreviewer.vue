@@ -3,9 +3,13 @@
 </template>
 
 <script>
+    import HeaderOne from './Header/HeaderOne.vue'
+    import HeaderOneOptions from './Header/HeaderOneOptions.vue'
     import HeroImageLeft from './Heroes/HeroImageLeft.vue'
     import HeroFormLeft from './Heroes/HeroFormLeft.vue'
+    import HeroImageLeftOptions from './Heroes/HeroImageLeftOptions.vue'
     import HeroVideoCenter from './Heroes/HeroVideoCenter.vue'
+    import HeroVideoCenterOptions from './Heroes/HeroVideoCenterOptions.vue'
 
     import AuthorImageLeft from './Author/AuthorImageLeft.vue'
 
@@ -31,6 +35,11 @@
     export default {
         name: 'BlockPreviewer',
         components: {
+            HeaderOne,
+            HeaderOneOptions,
+            HeroImageLeftOptions,
+            HeroVideoCenter,
+            HeroVideoCenterOptions,
             HeroImageLeft,
             HeroFormLeft,
             HeroVideoCenter,

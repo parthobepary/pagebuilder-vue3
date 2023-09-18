@@ -4,6 +4,42 @@ import { v4 as uuidv4 } from 'uuid'
 const groups = ref([
     {
         uuid: uuidv4(),
+        title: 'Header',
+        blocks: [
+            {
+                uuid: uuidv4(),
+                type: 'header',
+                model: 'list',
+                componentName: 'HeaderOne',
+                optionsComponentName: 'HeaderOneOptions',
+                description: 'List',
+                thumbUrl: '/images/thumbs/v1/faq/list.png',
+                data: {
+                    darkMode: false,
+                    title:'Logo',
+                    list: [
+                        {
+                            uuid: uuidv4(),
+                            text: 'Home',
+                            link: '/',
+                        },
+                        {
+                            uuid: uuidv4(),
+                            text: 'About',
+                            link: '/about',
+                        },
+                        {
+                            uuid: uuidv4(),
+                            text: 'Blog',
+                            link: '/blog',
+                        }
+                    ]
+                }
+            },
+        ]
+    },
+    {
+        uuid: uuidv4(),
         title: 'Heroes',
         blocks: [
             {

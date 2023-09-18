@@ -38,6 +38,8 @@
     import { ref } from 'vue'
     import Icon from '../Icon.vue'
     
+    import HeaderOne from './Header/HeaderOne.vue'
+    import HeaderOneOptions from './Header/HeaderOneOptions.vue'
     import HeroImageLeft from './Heroes/HeroImageLeft.vue'
     import HeroImageLeftOptions from './Heroes/HeroImageLeftOptions.vue'
     import HeroFormLeft from './Heroes/HeroFormLeft.vue'
@@ -85,7 +87,8 @@
         emits: ['delete'],
         components: {
             Icon,
-
+            HeaderOne,
+            HeaderOneOptions,
             HeroImageLeft,
             HeroImageLeftOptions,
             HeroFormLeft,
