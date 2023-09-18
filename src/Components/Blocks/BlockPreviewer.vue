@@ -23,6 +23,11 @@
     import FAQCollapse from './FAQ/FAQCollapse.vue'
     import FAQList from './FAQ/FAQList.vue'
 
+    import CardOne from './Cards/CardOne.vue'
+    import CardOneOptions from "./Cards/CardOneOptions.vue";
+    import PrimaryButton from "./Buttons/PrimaryButton.vue";
+    import PrimaryButtonOptions from "./Buttons/PrimaryButtonOptions.vue";
+
     export default {
         name: 'BlockPreviewer',
         components: {
@@ -39,6 +44,12 @@
             ChaptersCollapse,
             FAQCollapse,
             FAQList,
+
+            CardOne,
+            CardOneOptions,
+
+            PrimaryButton,
+            PrimaryButtonOptions,
         },
         props: {
             block: {
